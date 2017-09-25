@@ -20,6 +20,10 @@ def valid_move?(board, index)
   index.between?[0,8] && !position_taken?(board, index)
 end
 
+def input_to_index(input)
+  return input.to_i
+end
+
 def turn
   puts "Please enter 1-9:"
 end
