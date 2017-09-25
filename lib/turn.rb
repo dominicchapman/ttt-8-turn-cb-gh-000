@@ -17,7 +17,7 @@ end
 
 def valid_move?(board, index)
   # valid if index is within range 0-8 and currently unoccupied
-  index.between?[0,8] && !position_taken?(board, index)
+  index.between?(0,8) && !position_taken?(board, index)
 end
 
 def input_to_index(input)
