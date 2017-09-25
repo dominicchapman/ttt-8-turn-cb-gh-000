@@ -2,4 +2,4 @@
 
 require_relative '../lib/turn'
 
-print "Please enter 1-9:"
+puts "Please enter 1-9:"
