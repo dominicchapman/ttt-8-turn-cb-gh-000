@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require '../lib/turn.rb'
+require_relative '../lib/turn'
 
 print "Please enter 1-9:"
