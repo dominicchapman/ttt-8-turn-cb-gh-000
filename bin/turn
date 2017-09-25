@@ -1,1 +1,5 @@
 #!/usr/bin/env ruby
+
+require '../lib/turn.rb'
+
+print "Please enter 1-9:"
