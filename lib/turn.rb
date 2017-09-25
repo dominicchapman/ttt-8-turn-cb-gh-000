@@ -20,7 +20,7 @@ def valid_move?(board, index)
   index.between?(0,8) && !position_taken?(board, index)
 end
 
-def input_to_index(inded)
+def input_to_index(index)
   return index.to_i - 1
 end
 
